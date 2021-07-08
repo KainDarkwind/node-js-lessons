@@ -102,9 +102,15 @@ truncatedString = truncateString(
 
 console.log(truncatedString);
 
-const $ = jQuery;
-jQuery("#your-id").hide();
+// function showError(hasError, id, message) {
+//    const errorId = "${id}-error";
+//    if (hasError) {
+//    }
+// }
 
-getUserInput();
-[("a", "b")], join("");
+// const $ = jQuery;
+// jQuery("#your-id").hide();
+
+// getUserInput();
+// [("a", "b")], join("");
 _.fill([`c`, `h`, `u`, `r`, `c`, `h`], `*`, 1, 5);
