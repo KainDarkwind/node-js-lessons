@@ -104,7 +104,7 @@ console.log(`Here is a list of ALL holidays flattened:`, allFlatHolidays);
 //This 'flattens' or removes the mutliple tiers of data withiin an array.  We use this when you are combining arrays of different value types.
 
 const allUniqHolidays = [...new Set(allFlatHolidays)];
-console.log(`Here is a list of ALL unique holidays:`, allUniqHolidays); //This does something that I should have paid better attention to.  Go look up the Set operator if you can't figure it from the console logs.
+console.log(`Here is a list of ALL unique holidays:`, allUniqHolidays); //This removes duplicate entries.  Go look up the Set operator if you can't figure it from the console logs.
 
 const firstHolidays = allUniqHolidays.slice(0, allUniqHolidays.indexOf(2020));
 //This goes through the allUniqHolidays array from the beginning to the index of 2020, and takes everything prior to 2020, putting it in a variable called firstHolidays.

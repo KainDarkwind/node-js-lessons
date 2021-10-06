@@ -1,5 +1,3 @@
-const userProps = ["kain@gmail.com", "cocksfordays", 20200107, "023048"];
-
 const user = {
    email: getEmail(),
    password: getPassword(),
@@ -32,8 +30,14 @@ function getId() {
 }
 
 const newUser = { ...user }; //shallow copy via spread
+// Another way to do this is with Object.assign({}, user)  The {} is a blank object.  It takes two parameters, in this case we're assigning user and a blank object together, aka a copy of user.
+
 newUser.isActive = true;
-newUser.tokenExpiredAt = 90;
+newUser.tokenExpiredAt = user.createdAt + 86400000;
+newUser.isCoolPerson = true;
+newUser.isCoolPerson = false;
+delete newUser.isCoolPerson;
+delete newUser.email;
+
+console.log(user);
 console.log(newUser);
-
-

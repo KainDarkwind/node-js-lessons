@@ -1,0 +1,22 @@
+{
+   "email": "kain@gmail.com",
+   "password": "cockandcucksfordays",
+   "createdAt": 20210407,
+   "id": "023048",
+   "socialProfiles": [
+      {
+         "site": "facebook",
+         "username": "mikez",
+         "id": "006007",
+         "profilePic": "",
+         "age": "23",
+         "createdAt": 2010
+      },
+      {
+         "site": "twitter",
+         "username": "mikesetlow",
+         "id": "a4b89434ef",
+         "thumbnail": ""
+      }
+   ]
+}

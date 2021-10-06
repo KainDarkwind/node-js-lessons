@@ -95,3 +95,5 @@ const allInsecurePasswords = [
    { id: 94, text: "matrix" },
    { id: 95, text: "minecraft" },
 ];
+
+console.log(allInsecurePasswords);

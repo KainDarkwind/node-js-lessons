@@ -51,7 +51,7 @@ for (let i = 0; i < holidays.length; i++) {
    // if federal, keep
 
    const holiday = holidays[i];
-   const holidayDate = holiday[1]; // date  Specifically, this is the object in the 1 index of the holiday object.
+   const holidayDate = holiday[1]; // date  Specifically, this is the object in the 1 index of the holidays array.
    console.log(`The date of the holiday is `, holidayDate);
 
    if (typeof holidayDate === "number" && holidayDate) {
